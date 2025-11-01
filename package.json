@@ -1,0 +1,19 @@
+{
+  "name": "node.js-crash-2025",
+  "version": "1.0.0",
+  "description": "node.js-crash-course",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon testRun.js",
+    "start": "nodemon --env-file=.env server.js",
+    "serverTwo": "nodemon --env-file=.env serverTwo.js",
+    "serverThree": "nodemon --env-file=.env serverThree.js",
+    "serverFour": "nodemon --env-file=.env serverFour.js"
+  },
+  "author": "Abdulla",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
